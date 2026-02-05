@@ -1,3 +1,4 @@
+
 const CHARACTER_SETS = {
   hiragana: [
     "あ", "い", "う", "え", "お",
