@@ -9,7 +9,16 @@
   <body>
     <main class="container">
       <h1>かなランダム単語ジェネレーター</h1>
-      <p class="description">ひらがな（50音）から、3〜7文字のランダム文字列を生成します。</p>
+      <p class="description">文字種を選択し、3〜7文字のランダム文字列を生成します。</p>
+
+      <div class="controls">
+        <label for="characterType">文字種</label>
+        <select id="characterType" name="characterType">
+          <option value="hiragana">ひらがな</option>
+          <option value="katakana">カタカナ</option>
+          <option value="alphabet">アルファベット</option>
+        </select>
+      </div>
 
       <div class="controls">
         <button id="generateButton" type="button">生成</button>

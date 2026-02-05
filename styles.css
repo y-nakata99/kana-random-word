@@ -33,7 +33,21 @@ h1 {
 
 .controls {
   display: flex;
+  align-items: center;
   gap: 8px;
+  margin-bottom: 8px;
+}
+
+label {
+  font-weight: 600;
+}
+
+select {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 1rem;
+  background: #fff;
 }
 
 button {
