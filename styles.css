@@ -1,0 +1,68 @@
+:root {
+  color-scheme: light;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f6f8fb;
+  color: #20262e;
+}
+
+.container {
+  width: min(92vw, 520px);
+  padding: 24px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.description {
+  margin: 0 0 16px;
+  line-height: 1.5;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#generateButton {
+  background: #2563eb;
+  color: #fff;
+}
+
+#copyButton {
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+.result-panel {
+  margin-top: 20px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 16px;
+}
+
+.result {
+  font-size: 2rem;
+  letter-spacing: 0.08em;
+  margin: 8px 0 0;
+  min-height: 1.5em;
+}
